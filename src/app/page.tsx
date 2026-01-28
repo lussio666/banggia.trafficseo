@@ -135,7 +135,7 @@ export default function TrafficPricing() {
         </div>
 
         {/* Web Type Toggle - Centered above Pricing Grid */}
-        <div className="flex justify-center mb-4">
+        {/* <div className="flex justify-center mb-4">
           <div className="bg-white p-2 rounded-lg shadow-sm border border-gray-100 inline-flex items-center gap-2 md:gap-3">
             <span
               className={`text-xs md:text-sm font-medium ${!isSpecialWeb ? "text-indigo-600" : "text-gray-400"
@@ -167,7 +167,7 @@ export default function TrafficPricing() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Pricing Layout - Responsive Grid with Rotating Border */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 md:gap-6 pb-6 px-4 md:px-0">
@@ -210,10 +210,12 @@ export default function TrafficPricing() {
                     </thead>
                     <tbody>
                       {currentData.prices[cat.key]?.map((tier, idx) => {
-                        const price = isSpecialWeb ? tier.special : tier.normal;
-                        const oldPrice = isSpecialWeb
-                          ? tier.oldSpecial
-                          : tier.oldNormal;
+                        // const price = isSpecialWeb ? tier.special : tier.normal;
+                        // const oldPrice = isSpecialWeb
+                        //   ? tier.oldSpecial
+                        //   : tier.oldNormal;    
+                        const price = tier.special;
+                        const oldPrice = tier.oldSpecial
                         const timeVal = parseInt(tier.time);
                         const isLong = timeVal >= 150;
                         const showOldPrice = oldPrice && oldPrice !== price;
