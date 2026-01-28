@@ -128,7 +128,7 @@ export const categories = [
   { key: 'search' as const, name: 'Search Traffic', color: 'text-blue-600', bg: 'bg-blue-50', border: 'border-blue-200', btnColor: 'bg-blue-600 hover:bg-blue-700' },
   { key: 'direct' as const, name: 'Direct Traffic', color: 'text-green-600', bg: 'bg-green-50', border: 'border-green-200', btnColor: 'bg-green-600 hover:bg-green-700' },
   { key: 'social' as const, name: 'Social Traffic', color: 'text-pink-600', bg: 'bg-pink-50', border: 'border-pink-200', btnColor: 'bg-pink-600 hover:bg-pink-700' },
-  { key: 'backlink' as const, name: 'Backlink Traffic', color: 'text-purple-600', bg: 'bg-purple-50', border: 'border-purple-200', btnColor: 'bg-purple-600 hover:bg-purple-700' },
+  // { key: 'backlink' as const, name: 'Backlink Traffic', color: 'text-purple-600', bg: 'bg-purple-50', border: 'border-purple-200', btnColor: 'bg-purple-600 hover:bg-purple-700' },
 ];
 
 export const categoryDescriptions: Record<string, string> = {

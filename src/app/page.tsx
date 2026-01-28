@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Button, Tooltip } from "@heroui/react";
+import { Button } from "@heroui/react";
 import Image from "next/image";
 import {
   SearchIcon,
@@ -51,7 +51,7 @@ export default function TrafficPricing() {
       <div className="max-w-[1400px] mx-auto">
         {/* Header */}
         <div className="text-center mb-6 md:mb-8">
-          <div className="mb-4 md:mb-6">
+          {/* <div className="mb-4 md:mb-6">
             <a
               href="https://trafficseo.net/"
               target="_blank"
@@ -69,10 +69,10 @@ export default function TrafficPricing() {
           </div>
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2 md:mb-3">
             Bảng Giá Traffic User Tại TrafficSEO.net
-          </h1>
-          <p className="text-gray-600 text-sm md:text-lg">
+          </h1> */}
+          <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2 md:mb-3">
             Giải pháp tăng trưởng traffic thật & tối ưu SEO bền vững
-          </p>
+          </h1>
         </div>
 
         {/* Controls: Version Tabs Only - Centered & Sticky */}
@@ -160,16 +160,17 @@ export default function TrafficPricing() {
               Web Khác
             </span>
 
-            <Tooltip content="Lĩnh vực hoặc nghành nghề của website" placement="bottom">
-              <span className="ml-1 cursor-help">
-                <InfoIcon className="w-4 h-4 text-gray-400" />
-              </span>
-            </Tooltip>
+            <div className="group relative ml-1">
+              <InfoIcon className="w-4 h-4 text-gray-400 cursor-help" />
+              <div className="absolute bottom-full right-0 mb-2 w-48 p-2 bg-gray-800 text-white text-xs rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-20">
+                Lĩnh vực hoặc nghành nghề của website
+              </div>
+            </div>
           </div>
         </div>
 
         {/* Pricing Layout - Responsive Grid with Rotating Border */}
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-3 md:gap-6 pb-6 px-4 md:px-0">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 md:gap-6 pb-6 px-4 md:px-0">
           {categories.map((cat) => {
             const IconComponent = categoryIcons[cat.key];
             return (
