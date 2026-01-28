@@ -293,7 +293,7 @@ export default function TrafficPricing() {
 
           {/* CTA Buttons */}
           <div className="flex flex-row justify-center items-center gap-4 flex-wrap">
-            <a
+            {/* <a
               href="https://my.trafficseo.net/advertiser/auth/register"
               target="_blank"
               rel="noopener noreferrer"
@@ -310,11 +310,11 @@ export default function TrafficPricing() {
             >
               <LogInIcon />
               Đăng nhập
-            </a>
+            </a> */}
           </div>
 
           {/* Trở về trang chủ */}
-          <div className="mt-6 text-center">
+          {/* <div className="mt-6 text-center">
             <a
               href="https://trafficseo.net/"
               target="_blank"
@@ -324,7 +324,7 @@ export default function TrafficPricing() {
               <HomeIcon />
               Trở về Trang chủ
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
 

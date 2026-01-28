@@ -7,6 +7,13 @@ interface ContactModalProps {
   onClose: () => void;
 }
 
+const telegramLinks = [
+  { label: "Telegram 1", url: "https://t.me/trafficseo_net" },
+  { label: "Telegram 2", url: "https://t.me/trafficseo_net" },
+  { label: "Telegram 3", url: "https://t.me/trafficseo_net" },
+  { label: "Telegram 4", url: "https://t.me/trafficseo_net" },
+];
+
 export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
   if (!isOpen) return null;
 
@@ -33,7 +40,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
         </div>
 
         <div className="space-y-6">
-          <div className="flex flex-row gap-3">
+          {/* <div className="flex flex-row gap-3">
             <a
               href="https://my.trafficseo.net/advertiser/auth/register"
               target="_blank"
@@ -54,24 +61,26 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
               <LogInIcon />
               Đăng nhập
             </a>
-          </div>
+          </div> */}
 
-          <div className="pt-4 border-t border-gray-200">
-            <p className="text-sm text-gray-600 mb-4 text-center">
+          <div className="">
+            {/* <p className="text-sm text-gray-600 mb-4 text-center">
               Hoặc liên hệ tư vấn trực tiếp:
-            </p>
-            <div className="flex flex-row gap-3">
-              <a
-                href="https://t.me/trafficseo_net"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 flex-1 px-4 py-3 bg-[#59a0dc] hover:bg-[#4a8bc4] text-white text-sm font-semibold rounded-lg transition-colors shadow-md hover:shadow-lg"
-              >
-                <MessageCircleIcon />
-                Telegram
-              </a>
-
-              <a
+            </p> */}
+            <div className="flex flex-row gap-3 flex-wrap">
+              {telegramLinks.map((link, idx) => (
+                <a
+                  key={idx}
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-2 flex-1 px-4 py-3 bg-[#59a0dc] hover:bg-[#4a8bc4] text-white text-sm font-semibold rounded-lg transition-colors shadow-md hover:shadow-lg"
+                >
+                  <MessageCircleIcon />
+                  {link.label}
+                </a>
+              ))}
+              {/* <a
                 href="https://zalo.me/0982186140"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -79,7 +88,7 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
               >
                 <MessageCircleIcon />
                 Zalo
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
