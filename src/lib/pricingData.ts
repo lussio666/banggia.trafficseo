@@ -71,8 +71,8 @@ export const defaultPricingData: PricingData = {
         { time: '200s', label: 'Liên hệ', normal: 0, special: 0 },
       ],
       direct: [
-        { time: '60s', normal: 770, special: 1100, oldNormal: 770, oldSpecial: 880 },
-        { time: '120s', normal: 990, special: 1540, oldNormal: 990, oldSpecial: 1100 },
+        { time: '90s', normal: 770, special: 1100, oldNormal: 770, oldSpecial: 1000 },
+        { time: '120s', normal: 990, special: 1800, oldNormal: 990, oldSpecial: 1700 },
         { time: '150s', label: 'Liên hệ', normal: 0, special: 0 },
         { time: '200s', label: 'Liên hệ', normal: 0, special: 0 },
       ],
