@@ -35,26 +35,26 @@ export const defaultPricingData: PricingData = {
       search: [
         { time: '60s', normal: 1100, special: 1540, oldNormal: 1100, oldSpecial: 1320 },
         { time: '120s', normal: 1540, special: 1980, oldNormal: 1320, oldSpecial: 1540 },
-        { time: '150s', normal: 1760, special: 2200, oldNormal: 1540, oldSpecial: 1760 },
-        { time: '200s', normal: 1980, special: 2420, oldNormal: 1980, oldSpecial: 2200 },
+        { time: '150s', label: 'Liên hệ', normal: 0, special: 0 },
+        { time: '200s', label: 'Liên hệ', normal: 0, special: 0 },
       ],
       direct: [
         { time: '60s', normal: 660, special: 990, oldNormal: 550, oldSpecial: 660 },
         { time: '120s', normal: 880, special: 1320, oldNormal: 770, oldSpecial: 880 },
-        { time: '150s', normal: 990, special: 1540, oldNormal: 880, oldSpecial: 990 },
-        { time: '200s', normal: 1100, special: 1760, oldNormal: 990, oldSpecial: 1100 },
+        { time: '150s', label: 'Liên hệ', normal: 0, special: 0 },
+        { time: '200s', label: 'Liên hệ', normal: 0, special: 0 },
       ],
       social: [
         { time: '60s', normal: 880, special: 1100, oldNormal: 770, oldSpecial: 880 },
         { time: '120s', normal: 1320, special: 1540, oldNormal: 990, oldSpecial: 1100 },
-        { time: '150s', normal: 1540, special: 1760, oldNormal: 1100, oldSpecial: 1320 },
-        { time: '200s', normal: 1760, special: 1980, oldNormal: 1540, oldSpecial: 1760 },
+        { time: '150s', label: 'Liên hệ', normal: 0, special: 0 },
+        { time: '200s', label: 'Liên hệ', normal: 0, special: 0 },
       ],
       backlink: [
         { time: '60s', normal: 990, special: 1320, oldNormal: 880, oldSpecial: 990 },
         { time: '120s', normal: 1320, special: 1760, oldNormal: 1100, oldSpecial: 1320 },
-        { time: '150s', normal: 1540, special: 1980, oldNormal: 1320, oldSpecial: 1540 },
-        { time: '200s', normal: 1760, special: 2200, oldNormal: 1760, oldSpecial: 1980 },
+        { time: '150s', label: 'Liên hệ', normal: 0, special: 0 },
+        { time: '200s', label: 'Liên hệ', normal: 0, special: 0 },
       ]
     }
   },
@@ -67,26 +67,26 @@ export const defaultPricingData: PricingData = {
       search: [
         { time: '60s', normal: 1540, special: 1980, oldNormal: 1540, oldSpecial: 1760 },
         { time: '120s', normal: 1980, special: 2200, oldNormal: 1760, oldSpecial: 1980 },
-        { time: '150s', normal: 2200, special: 2420, oldNormal: 1980, oldSpecial: 2200 },
-        { time: '200s', normal: 2420, special: 2640, oldNormal: 2420, oldSpecial: 2640 },
+        { time: '150s', label: 'Liên hệ', normal: 0, special: 0 },
+        { time: '200s', label: 'Liên hệ', normal: 0, special: 0 },
       ],
       direct: [
         { time: '60s', normal: 770, special: 1100, oldNormal: 770, oldSpecial: 880 },
         { time: '120s', normal: 990, special: 1540, oldNormal: 990, oldSpecial: 1100 },
-        { time: '150s', normal: 1100, special: 1760, oldNormal: 1100, oldSpecial: 1320 },
-        { time: '200s', normal: 1320, special: 1980, oldNormal: 1320, oldSpecial: 1540 },
+        { time: '150s', label: 'Liên hệ', normal: 0, special: 0 },
+        { time: '200s', label: 'Liên hệ', normal: 0, special: 0 },
       ],
       social: [
         { time: '60s', normal: 990, special: 1320, oldNormal: 990, oldSpecial: 1100 },
         { time: '120s', normal: 1320, special: 1760, oldNormal: 1320, oldSpecial: 1540 },
-        { time: '150s', normal: 1540, special: 1980, oldNormal: 1540, oldSpecial: 1760 },
-        { time: '200s', normal: 1760, special: 2200, oldNormal: 1760, oldSpecial: 1980 },
+        { time: '150s', label: 'Liên hệ', normal: 0, special: 0 },
+        { time: '200s', label: 'Liên hệ', normal: 0, special: 0 },
       ],
       backlink: [
         { time: '60s', normal: 1100, special: 1540, oldNormal: 1100, oldSpecial: 1320 },
         { time: '120s', normal: 1540, special: 1980, oldNormal: 1540, oldSpecial: 1760 },
-        { time: '150s', normal: 1760, special: 2200, oldNormal: 1760, oldSpecial: 1980 },
-        { time: '200s', normal: 1980, special: 2420, oldNormal: 1980, oldSpecial: 2200 },
+        { time: '150s', label: 'Liên hệ', normal: 0, special: 0 },
+        { time: '200s', label: 'Liên hệ', normal: 0, special: 0 },
       ]
     }
   },

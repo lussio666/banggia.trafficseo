@@ -8,10 +8,10 @@ interface ContactModalProps {
 }
 
 const telegramLinks = [
-  { label: "Telegram 1", url: "https://t.me/trafficseo_net" },
-  { label: "Telegram 2", url: "https://t.me/trafficseo_net" },
-  { label: "Telegram 3", url: "https://t.me/trafficseo_net" },
-  { label: "Telegram 4", url: "https://t.me/trafficseo_net" },
+  { label: "Telegram 1", url: "https://t.me/hongphuong898" },
+  { label: "Telegram 2", url: "https://t.me/hongphuong898" },
+  { label: "Telegram 3", url: "https://t.me/hongphuong898" },
+  { label: "Telegram 4", url: "https://t.me/hongphuong898" },
 ];
 
 export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
